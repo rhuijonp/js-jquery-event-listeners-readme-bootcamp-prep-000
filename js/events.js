@@ -25,5 +25,8 @@ function submitIt () {
 $(document).ready(function(){
 
 // call functions here
-
+$(document).on('load', getIt());
+	$(document).on('load', frameIt());
+	$(document).on('load', pressIt());
+	$(document).on('load', submitIt());
 });
